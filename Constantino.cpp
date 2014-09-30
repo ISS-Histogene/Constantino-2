@@ -346,10 +346,10 @@ int main(int argc, char** argv) {
                                     {3, 7, 12, 10},
                                     {15, 1, 14, 11}};
 
-    vector< vector<int> > caso1 = {{1, 12, 11, 10},
-                                     {0, 2, 13, 8},
-                                     {5, 4, 9, 15},
-                                     {3, 6, 14, 7}};
+    vector< vector<int> > caso1 = {{1, 5, 9, 13},
+                                     {6, 3, 10, 14},
+                                     {4, 11, 0, 15},
+                                     {7, 2, 8, 12}};
 
     vector< vector<int> > caso2 = {{1, 6, 0, 11},
                                    {2, 9, 13, 5},
@@ -371,6 +371,6 @@ int main(int argc, char** argv) {
                                    {6, 11, 3, 1},
                                    {8, 2, 15, 12}};
 
-    principal(caso3, 0);
+    principal(caso2, 0);
     return 0;
 }
