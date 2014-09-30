@@ -373,6 +373,6 @@ int main(int argc, char** argv) {
                                    {6, 11, 3, 1},
                                    {8, 2, 15, 12}};
 
-    principal(caso5, 0);
+    principal(caso3, 0);
     return 0;
 }
